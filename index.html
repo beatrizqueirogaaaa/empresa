@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assistência BC</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0a0a0a;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #000;
+}
+
+nav h2 {
+  color: #25D366;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background: linear-gradient(90deg, #2a003f, #000);
+  flex-wrap: wrap;
+}
+
+.hero h1 {
+  font-size: 50px;
+}
+
+.hero span {
+  color: #25D366;
+}
+
+.hero p {
+  color: #ccc;
+}
+
+.hero img {
+  width: 400px;
+  border-radius: 15px;
+}
+
+.btn {
+  background: #25D366;
+  padding: 15px 25px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.servicos {
+  padding: 40px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.contato {
+  text-align: center;
+  padding: 40px;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 25px;
+  text-decoration: none;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+  <h2>Assistência BC</h2>
+  <div>
+    <a href="#">Início</a>
+    <a href="#">Serviços</a>
+    <a href="#">Contato</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div>
+    <h1>Assistência <span>BC</span></h1>
+    <p>Manutenção com qualidade e confiança</p>
+    <p>Especialista em celulares, notebooks e computadores</p>
+
+    <a class="btn" href="https://wa.me/5511942186153?text=Olá,%20vim%20pelo%20site">
+      Fale no WhatsApp
+    </a>
+  </div>
+
+  <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800">
+</section>
+
+<section class="servicos">
+  <h2>Nossos Serviços</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=500">
+      <h3>Computador</h3>
+      <p>• Limpeza<br>• Formatação<br>• Troca de peças</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=500">
+      <h3>Celular</h3>
+      <p>• Reparo<br>• Troca<br>• Formatação</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=500">
+      <h3>Notebook</h3>
+      <p>• Formatação<br>• Limpeza<br>• Conserto</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="contato">
+  <h2>Contato</h2>
+  <p>🟢 Estamos ABERTOS agora!</p>
+
+  <a class="btn" href="https://wa.me/5511942186153">
+    Chamar no WhatsApp
+  </a>
+</section>
+
+<a class="whatsapp" href="https://wa.me/5511942186153">💬</a>
+
+</body>
+</html>
